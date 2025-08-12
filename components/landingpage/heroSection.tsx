@@ -3,7 +3,7 @@
 import { CardHoverEffectDemo } from "../ui/card"
 import Image from "next/image"
 import Footer from "./footer"
-import Navbar from "../navbar"
+import Navbar from "./navbar"
 import Link from "next/link"
 import { motion } from "framer-motion"
 
