@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LayrdUI Portfolio Template
+
+This is a portfolio template built with [Next.js](https://nextjs.org) and [Tailwind CSS](https://tailwindcss.com), designed to showcase your work and projects with a modern UI. The template is bootstrapped using [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) and leverages the power of Next.js for fast, scalable web applications.
 
 ## Getting Started
 
@@ -22,10 +24,11 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Next.js and Tailwind CSS, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs) - learn how to style your project with utility-first CSS.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
