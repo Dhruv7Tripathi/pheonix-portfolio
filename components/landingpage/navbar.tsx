@@ -35,12 +35,12 @@ const Navbar = () => {
             </div>
 
             <div className="hidden lg:block ml-auto">
-              <ul className="flex gap-8 text-sm">
+              <ul className="flex gap-2 text-sm">
                 {menuItems.map((item, index) => (
                   <li key={index}>
                     <Link
                       href={item.href}
-                      className="text-black text-xl  hover:text-accent-foreground dark:text-white block duration-150">
+                      className="text-black text-xl px-3 py-2 rounded-lg hover:bg-neutral-50 dark:hover:bg-neutral-950  hover:text-accent-foreground dark:text-white block duration-150">
                       <span>{item.name}</span>
                     </Link>
                   </li>

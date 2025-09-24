@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
+import { ThemeProvider } from "@/components/ui/theme-provider";
 import { Analytics } from "@vercel/analytics/next"
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,8 +14,61 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PortFolio",
-  description: "Created for showcasing my work and skills",
+  title: "Phoenix Portfolio | Full-Stack Developer & Designer",
+  description: "Showcasing the work, skills, and projects of Phoenix – a full-stack developer specializing in building beautiful, fast, and modern web applications.",
+  keywords: [
+    "Phoenix Portfolio",
+    "Full Stack Developer",
+    "Frontend Developer",
+    "Web Developer Portfolio",
+    "JavaScript Developer",
+    "React Developer",
+    "Next.js Portfolio",
+    "Software Engineer Portfolio",
+  ],
+  authors: [{ name: "Phoenix", url: "https://your-portfolio-domain.com" }],
+  creator: "Phoenix",
+  metadataBase: new URL("https://your-portfolio-domain.com"),
+  openGraph: {
+    title: "Phoenix Portfolio | Full-Stack Developer",
+    description: "A developer portfolio showcasing Phoenix's projects, skills, and experience.",
+    url: "https://your-portfolio-domain.com",
+    siteName: "Phoenix Portfolio",
+    images: [
+      {
+        url: "/og-image.png", // Place the image in public folder
+        width: 1200,
+        height: 630,
+        alt: "Phoenix Portfolio Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Phoenix Portfolio | Full-Stack Developer",
+    description: "Explore Phoenix's work, skills, and projects as a full-stack developer.",
+    images: ["/og-image.png"],
+    creator: "@yourtwitterhandle",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({

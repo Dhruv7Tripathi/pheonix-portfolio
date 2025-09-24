@@ -87,14 +87,14 @@ const HeroSection = () => {
                 Phoenix
               </motion.h1>
               <motion.h2
-                className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 leading-relaxed"
+                className="text-xl md:text-2xl text-neutral-600 dark:text-neutral-300 leading-relaxed"
                 variants={itemVariants}
               >
                 Full Stack Developer passionate about building scalable web applications and delightful user
                 experiences.
               </motion.h2>
               <motion.p
-                className="text-lg text-gray-700 dark:text-gray-400 leading-relaxed max-w-lg"
+                className="text-lg text-neutral-700 dark:text-neutral-400 leading-relaxed max-w-lg"
                 variants={itemVariants}
               >
                 Hi, I&apos;m Phoenix! I love turning ideas into reality with code. Whether it&apos;s crafting robust backends or
