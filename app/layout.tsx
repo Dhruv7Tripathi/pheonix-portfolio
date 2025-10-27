@@ -26,13 +26,13 @@ export const metadata: Metadata = {
     "Next.js Portfolio",
     "Software Engineer Portfolio",
   ],
-  authors: [{ name: "Phoenix", url: "https://your-portfolio-domain.com" }],
+  authors: [{ name: "Phoenix", url: "https://portfolio-temp-seven-alpha.vercel.app/" }],
   creator: "Phoenix",
-  metadataBase: new URL("https://your-portfolio-domain.com"),
+  metadataBase: new URL("https://portfolio-temp-seven-alpha.vercel.app/"),
   openGraph: {
     title: "Phoenix Portfolio | Full-Stack Developer",
     description: "A developer portfolio showcasing Phoenix's projects, skills, and experience.",
-    url: "https://your-portfolio-domain.com",
+    url: "https://portfolio-temp-seven-alpha.vercel.app/",
     siteName: "Phoenix Portfolio",
     images: [
       {

@@ -7,7 +7,7 @@ import Navbar from "./navbar"
 import Link from "next/link"
 import { motion } from "framer-motion"
 
-const HeroSection = () => {
+const LandingPage = () => {
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -240,4 +240,4 @@ const HeroSection = () => {
   )
 }
 
-export default HeroSection
+export default LandingPage
